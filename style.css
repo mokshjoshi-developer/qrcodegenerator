@@ -34,18 +34,6 @@ body {
     font-size: 16px;
 }
 
-.background-glow,
-.background-glow-2 {
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
-    filter: blur(80px);
-    opacity: 0.4;
-    z-index: -1;
-    animation: float 10s infinite ease-in-out alternate;
-}
-
 .background-glow {
     top: -20%;
     left: -10%;
